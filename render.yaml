@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: jira-api
+    env: python
+    buildCommand: ""
+    startCommand: "python projekte_abrufen.py"
