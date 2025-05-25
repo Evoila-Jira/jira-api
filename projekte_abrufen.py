@@ -1,7 +1,7 @@
 import requests
 
 # Deine ngrok-URL
-url = "https://70a9-104-151-118-50.ngrok-free.app/projects"
+url = "https://d88d-104-151-118-50.ngrok-free.app/projects"
 
 print("🔄 Lade Projekte von Flask-Server...")
 
