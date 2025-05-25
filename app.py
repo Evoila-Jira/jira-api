@@ -13,8 +13,8 @@ PROJECT_KEY = 'COP'
 ISSUE_TYPE = '[System] Service request'
 CUSTOM_FIELD_ID = 'customfield_10226'
 
-JIRA_EMAIL = os.getenv('JIRA_EMAIL')
-JIRA_API_TOKEN = os.getenv('JIRA_API_TOKEN')
+JIRA_EMAIL = "ocaylak@evoila.com"
+JIRA_API_TOKEN = "ATATT3xFfGF0M1ab2Np1AH2XvA8hkB8nIPeENZDMiRayfYZT_hpOwJdKZwbaXyuuybWO4AtP-C4TB8mma0LrTrwNURpRbHyAfzJk8STraXcLlVRMf-xugfGcLk75kXDutD37vkkyJDfO-GZqJtDlt6GS2U-1WdJdbL1jEcw29jKIRkTj9Ovqi-U=937CF889"  # <-- hier dein Token einsetzen
 
 @app.route('/create-ticket', methods=['POST'])
 def create_ticket():
