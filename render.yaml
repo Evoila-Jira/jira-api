@@ -3,4 +3,4 @@ services:
     name: jira-api
     env: python
     buildCommand: ""
-    startCommand: "python projekte_abrufen.py"
+    startCommand: "python app.py"
