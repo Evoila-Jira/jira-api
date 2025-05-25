@@ -1,5 +1,9 @@
 import requests
 
+from flask import Flask
+app = Flask(__name__)
+
+
 # Deine ngrok-URL
 url = "https://4cc6-104-151-118-50.ngrok-free.app/projects"
 
@@ -15,7 +19,3 @@ try:
         print(f"🔹 {project['key']}: {project['name']}")
 except Exception as e:
     print(f"❌ Fehler beim Abrufen der Projekte: {e}")
-
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=10000)
-    
