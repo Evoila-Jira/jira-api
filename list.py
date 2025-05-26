@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 # Jira-Zugangsdaten
 jira_domain = "https://copitos.atlassian.net"
 JIRA_EMAIL = "ocaylak@evoila.com"
-JIRA_API_TOKEN = "ATATT3xFfGF0M1ab2Np1AH2XvA8hkB8nIPeENZDMiRayfYZT_hpOwJdKZwbaXyuuybWO4AtP-C4TB8mma0LrTrwNURpRbHyAfzJk8STraXcLlVRMf-xugfGcLk75kXDutD37vkkyJDfO-GZqJtDlt6GS2U-1WdJdbL1jEcw29jKIRkTj9Ovqi-U=937CF889"
+JIRA_API_TOKEN = "ATATT3xFfGF0Pka2q0FqGWHcPmA0AxVyVe9V4P-ePCNm_tiMeP1tH_mR3i7NyTOZ1nv2MBd_KaxsH6a34P20tXf3D2ZdjCXhQOJiYyS0mNKdDITNLfLl_ge3eVac4veF1Z2E20zQCOPLaUGK1Ctm_7RPlD_oxJ-N_FAEpT4ka1hpCZPWAhL1Lmo=AE47B170"
 
 # API-Endpunkt
 url = f"{jira_domain}/rest/api/3/project/search"
